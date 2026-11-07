@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[cite: 2] -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Free Christmas Gift Template 🎄</title>
+<style>
+/* Base theme colors adapted for Christmas[cite: 1] while preserving exact structure[cite: 2] */
+:root{--bg1:#fff1f0;--bg2:#e6f6ea;--card:#fffdf9;--ink:#7a1f2b;--soft:#2f7a4a;--pink:#d92b45;--chip:#fde8e8;--shadow:rgba(217,43,69,.25);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg1:#2a0f15;--bg2:#10281a;--card:#2b1a1d;--ink:#ffd9dc;--soft:#8fe0ac;--chip:#47232a;--shadow:rgba(217,43,69,.35)}}
+:root[data-theme="dark"]{--bg1:#2a0f15;--bg2:#10281a;--card:#2b1a1d;--ink:#ffd9dc;--soft:#8fe0ac;--chip:#47232a;--shadow:rgba(217,43,69,.35)}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100vh;font-family:"Quicksand","Nunito","Segoe UI",system-ui,sans-serif;background:linear-gradient(160deg,var(--bg1),var(--bg2));background-color:var(--bg1);color:var(--ink);display:flex;justify-content:center;padding:28px 16px 40px}
+.wrap{width:min(100%,440px);display:flex;flex-direction:column;gap:16px}
+.card{background:var(--card);border-radius:28px;padding:24px 22px;text-align:center;box-shadow:0 18px 50px var(--shadow)}
+.avatar{width:84px;height:84px;border-radius:50%;margin:0 auto 10px;background:var(--chip);border:3px solid var(--pink);display:flex;align-items:center;justify-content:center;font-size:40px;overflow:hidden}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.by{font-size:14px;color:var(--soft);margin:0 0 6px}
+h1{font-size:26px;line-height:1.2;margin:6px 0 8px}
+p{margin:0 0 12px;line-height:1.55;font-size:15px}
+.soft{color:var(--soft)}
+.badge{display:inline-block;background:var(--chip);color:var(--ink);font-weight:700;font-size:12px;padding:6px 12px;border-radius:999px;margin:2px 3px}
+.btn{display:block;width:100%;background:var(--pink);color:#fff;font:inherit;font-weight:700;font-size:18px;padding:14px 20px;border:0;border-radius:999px;box-shadow:0 6px 0 #a81d33;cursor:pointer;text-decoration:none;transition:transform .15s;animation:pulse 2s ease-in-out infinite}
+.btn:active{transform:translateY(4px);box-shadow:0 2px 0 #a81d33}
+@keyframes pulse{50%{transform:scale(1.03)}}
+.phone{width:200px;margin:4px auto 14px;background:var(--chip);border:6px solid var(--ink);border-radius:30px;padding:16px 12px;box-shadow:0 10px 30px var(--shadow)}
+.phone .m{font-size:42px;display:block;animation:bounce 1.4s ease-in-out infinite}
+@keyframes bounce{50%{transform:translateY(-8px) rotate(5deg)}}
+.phone b{display:block;font-size:13px;margin:6px 0 10px}
+.phone span.y,.phone span.n{display:inline-block;font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;color:#fff}
+.phone .y{background:var(--pink)}.phone .n{background:#9aa0b5;transform:scale(.8)}
+.steps{text-align:left;display:grid;gap:10px;margin:8px 0 4px}
+.steps div{display:flex;gap:12px;align-items:flex-start;background:var(--chip);border-radius:16px;padding:12px 14px;font-size:14px;line-height:1.45}
+.steps em{font-style:normal;flex:none;width:26px;height:26px;border-radius:50%;background:var(--pink);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:13px}
+.honest{font-size:13px;color:var(--soft);line-height:1.5}
+ul{list-style:none;padding:0;margin:0 0 4px;text-align:left}
+li{padding:6px 0;font-size:14px}
+.foot{text-align:center;font-size:12px;color:var(--soft);line-height:1.6}
+.foot a{color:var(--soft)}
+.float{position:fixed;bottom:-40px;z-index:0;pointer-events:none;animation:up linear forwards}
+@keyframes up{to{transform:translateY(-115vh) rotate(40deg);opacity:0}}
+.wrap{position:relative;z-index:1}
+</style>
+</head>
+<body>
+<div class="wrap">
 
+  <!-- HERO -->
+  <div class="card">
+    <div class="avatar" id="avatar">🎅</div>
+    <!-- To use your photo: replace the emoji above with <img src="data:image/jpeg;base64,..." alt="me"> -->
+    <p class="by">hey, it's <b id="myName">YOUR NAME</b> 👋</p>
+    <h1>I made a cute “Santa’s Gift Assigner” page 🎄</h1> <!--[cite: 1] -->
+    <p class="soft">The "Broke" button runs away, they upload a core memory, and get a sweet personalized gift reveal. Free for you to use.</p> <!--[cite: 1, 2] -->
+    <div>
+      <span class="badge">🎁 100% free</span><span class="badge">📱 works on phones</span><span class="badge">⚡ no coding</span> <!--[cite: 2] -->
+    </div>
+  </div>
+
+  <!-- PREVIEW -->
+  <div class="card">
+    <p class="by">here's a peek 👀</p>
+    <div class="phone">
+      <span class="m">⛄</span> <!--[cite: 1] -->
+      <b>What’s your budget for me?</b> <!--[cite: 1] -->
+      <span class="y">High 💎</span> <span class="n">Broke 🥲</span> <!--[cite: 1, 2] -->
+    </div>
+    <p class="soft" style="margin:0">Pick closeness → upload photo → pick budget → it emails you the answers 🥰</p> <!--[cite: 1, 2] -->
+  </div>
+
+  <!-- WHAT YOU GET -->
+  <div class="card">
+    <p class="by">what you get ✨</p>
+    <ul>
+      <li>🏃 A “Broke” button that dodges and shrinks</li> <!--[cite: 1, 2] -->
+      <li>📸 Photo upload to capture a core memory polaroid</li> <!--[cite: 1, 2] -->
+      <li>💌 A personalized Christmas letter generated for them</li> <!--[cite: 1, 2] -->
+      <li>❄️ Light and dark mode, falling snow and confetti</li> <!--[cite: 1, 2] -->
+    </ul>
+  </div>
+
+  <!-- HOW IT WORKS + CTA -->
+  <div class="card">
+    <p class="by">how to get it 🎀</p>
+    <div class="steps">
+      <div><em>1</em><span>Tap the button below</span></div> <!--[cite: 2] -->
+      <div><em>2</em><span>Complete one quick sponsored offer (usually takes a minute or two)</span></div> <!--[cite: 2] -->
+      <div><em>3</em><span>The template unlocks instantly. Copy it and make it yours 💕</span></div> <!--[cite: 2] -->
+    </div>
+    <p class="honest" style="margin:14px 0">
+      💬 Being honest with you: I'm not charging anything for this. The sponsored offer is how I earn a small commission, and it's what lets me keep making free stuff like this. Thank you for supporting me 🥹 <!--[cite: 2] -->
+    </p>
+    <a class="btn" id="unlock" href="#" role="button">Unlock my free template 🔓</a>
+    <p class="honest" style="margin:12px 0 0">Offers are from third-party sponsors and vary by country. Read each offer's terms before you take part.</p> <!--[cite: 2] -->
+  </div>
+
+  <div class="foot">
+    Made with ❤️ by <span id="myName2">YOUR NAME</span><br>
+    Follow me: <a id="tt" href="https://tiktok.com/@yourhandle" target="_blank" rel="noopener">TikTok</a> ·
+    <a id="ig" href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a><br> <!--[cite: 2] -->
+    Contains sponsored content · <a href="#" id="privacy">Privacy</a> · <a href="mailto:you@example.com">Contact</a>
+  </div>
+</div>
+
+<script>
+/* ===== EDIT THESE ===== */
+const MY_NAME = "Sophia";
+/* Paste the unlock link your CPA network gives you (the locker URL),
+   or leave empty and use their script snippet instead (see note below). */
+const LOCKER_URL = "https://bchub.bemobtrcks.com/go/068d84be-955e-4fed-a046-188997cfc55e?ttclid=__CLICKID__&campaign_id=__CAMPAIGN_ID__&campaign=__CAMPAIGN_NAME__&ad_set_id=__AID__&ad_set_name=__AID_NAME__&creative_id=__CID__&creative_name=__CID_NAME__&placement=__PLACEMENT__&ip_address=__IP__&user_agent=__UA__";
+/* ======================= */
+
+document.getElementById("myName").textContent = MY_NAME;
+document.getElementById("myName2").textContent = MY_NAME;
+
+document.getElementById("unlock").addEventListener("click", function(e){
+  e.preventDefault();
+  if (LOCKER_URL) { window.location.href = LOCKER_URL; return; }
+  /* If your network gives a JS function (e.g. _xx() or a script tag),
+     call it here instead of using LOCKER_URL. */
+  alert("Add your locker link in LOCKER_URL first 🙂");
+});
+
+function burst(){
+  const f=document.createElement("div"); f.className="float";
+  f.textContent=["❄️","🎄","🎁","⭐"][Math.floor(Math.random()*4)]; // Adjusted float icons for Christmas theme[cite: 1]
+  f.style.left=Math.random()*100+"vw"; f.style.fontSize=(16+Math.random()*24)+"px";
+  f.style.animationDuration=(4+Math.random()*3)+"s";
+  document.body.appendChild(f); setTimeout(()=>f.remove(),8000);
+}
+setInterval(burst,1100);
+</script>
+</body>
+</html>
